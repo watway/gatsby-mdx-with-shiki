@@ -1,0 +1,28 @@
+# This is a heading
+## And a sub heading
+
+Paragraph text
+
+* some
+* bullet
+* points
+
+1. items
+2. in a
+3. list
+
+### Some Javascript
+```javascript
+module.exports = {
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/pages/`,
+      },
+    },
+    `gatsby-plugin-mdx`,
+  ],
+}
+```
